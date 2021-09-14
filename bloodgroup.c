@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 void main()
+<<<<<<< HEAD
 { char Name[40], G[5], answer[100];
+=======
+{ char Name[50], G[5], answer[10];
+>>>>>>> bd0072f165c733b4816b63b099f76f91b3682870
   int i;
   do
   {
@@ -9,7 +13,11 @@ void main()
     scanf("%s", Name);
     do
     {
+<<<<<<< HEAD
       printf("what is Your blood group [A, B, AB, or O]? ");
+=======
+      printf("what is your bloodgroup [A, B, AB, or O]? ");
+>>>>>>> bd0072f165c733b4816b63b099f76f91b3682870
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
